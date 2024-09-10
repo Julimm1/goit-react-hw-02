@@ -1,0 +1,11 @@
+.feedback {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.item {
+  list-style-type: none;
+  font-size: 30px;
+  font-weight: 300;
+}

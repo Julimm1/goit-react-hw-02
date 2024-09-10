@@ -28,6 +28,12 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: rgb(63, 149, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 149, 251, 0.6643907563025211) 5%,
+    rgba(252, 70, 107, 1) 88%
+  );
 }
 
 h1 {
@@ -35,7 +41,11 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+p {
+  font-size: 20px;
+  font-weight: 300;
+}
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -52,7 +62,7 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -62,7 +72,7 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
+  /* button {
     background-color: #f9f9f9;
-  }
+  } */
 }
